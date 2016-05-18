@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding:  0;
+}
+
+#game-screen {
+    display: block;
+}
+
+#gameOver, #playMUD{
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h2, h3, a {
+    font-family: 'VT323' ;
+    text-align: center;
+}
+
+.title {
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+}
+
+#restartButton {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+#restartButton:hover {
+    background-color: white;
+}
+
+#scoreboard {
+    margin: 0px;
+    color: white;
+}
+
+#gameStart {
+    position: absolute;
+}
+
+#start {
+    font-size: 62px;
+    margin-left: 800px; 
+    margin-top: 100px;
+    color: white;
+}
+
+.play {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 800px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.play:hover {
+     background-color: #AEC6CF;
+}
+
+.playy {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 250px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.playy:hover {
+     background-color: #B39EB5;
+}
+
+.playyy {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 450px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.playyy:hover {
+     background-color: #FFD1DC;
+}
+
+.playyyy {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 450px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.playyyy:hover {
+     background-color: #AEC6CF;
+}
