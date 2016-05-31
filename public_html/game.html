@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
-    border:1px solid #d3d3d3;
     background-color: #FFD1DC;
     margin: auto;
     width: 100%;
@@ -14,9 +13,10 @@ canvas {
 body {
     text-align: center;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 40px;
     width: 60%;
     padding: 10px;
+    background-color: #B39EB5;
 }
 </style>
 </head>
@@ -142,7 +142,11 @@ function accelerate(n) {
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">JUMP</button>
-<p>Use the JUMP button to stay in the air</p>
-<p>How long can you stay alive?</p>
+<p>use the JUMP button to stay in the air</p>
+<p>how long can you stay alive?</p>
+<nav>
+    <a href="game.html" style="text-decoration: none;">restart</a><br>
+    <a href="arcade.html" style="text-decoration: none;">back to arcade</a>
+</nav>
 </body>
 </html>

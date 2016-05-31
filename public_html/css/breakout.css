@@ -1,7 +1,8 @@
 body {
  background-color: lightgray;
 }
-body {
+p {
    margin-left: 465px;
    margin-right: auto;
+   margin-top: -54px;
 }
